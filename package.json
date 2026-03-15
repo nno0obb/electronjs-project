@@ -1,0 +1,18 @@
+{
+    "name": "electronjs-project",
+    "version": "1.0.0",
+    "description": "- Inflearn :: [[Electron #1] Electron + React로 만드는 타이머 앱 (With Zustand)](https://www.inflearn.com/course/자바스크립트-gui-개발-1-elec/dashboard) - Notion :: [[Electron #1] Electron + React로 만드는 타이머 앱 (With Zustand)](https://trusting-apparel-eb8.notion.site/Electron-1-Electron-React-With-Zustand-18daac19ed70808c8e7adbd2dc0334e3)",
+    "main": "index.js",
+    "scripts": {
+        "dev": "concurrently \"npm run dev:react\" \"npm run dev:electron\"",
+        "dev:react": "cd frontend && npm run dev",
+        "dev:electron": "cd electron && npm run start"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "dependencies": {
+        "concurrently": "^9.2.1"
+    }
+}
